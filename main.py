@@ -10,7 +10,7 @@ def main():
              Wall(0, 0, 0, 600),
              Wall(599, 599, 599, 1),
              Wall(599, 599, 1, 599)]
-    source = Source(1)
+    source = Source(1, 0.0001)
     running = True
     drawing = False 
     sx, sy = None, None

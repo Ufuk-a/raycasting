@@ -7,5 +7,6 @@ class Wall():
         self.x2 = x2
         self.y2 = y2
     
-    def draw(self, screen):
+    def update(self, screen, walls):
         pygame.draw.line(screen, colors.white, (self.x1, self.y1), (self.x2, self.y2))
+        
